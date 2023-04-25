@@ -34,22 +34,6 @@ A = np.array([
 b = np.array([6, -3])
 x_int2, y_int2 = np.linalg.solve(A, b)
 
-A = np.array([
-    [-1, 1],
-    [1, 1]
-])
-b = np.array([-3, 5])
-x_int3, y_int3 = np.linalg.solve(A, b)
-
-A = np.array([
-    [1, 0],
-    [0, 1]
-])
-b = np.array([5, 10])
-x_int4, y_int4 = np.linalg.solve(A, b)
-
-print(x_int2,y_int2)
-
 # Cria o gráfico
 fig, ax = plt.subplots()
 ax.plot(x, ya, label='- x + y - 6')
